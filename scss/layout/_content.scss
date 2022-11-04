@@ -37,10 +37,15 @@
 }
 
 
-// @media only screen and (max-width: 420px) {
-//     .content {
-//         .content-wrapper {
-//             width: 100%;
-//         }
-//     }
-// }
+@media only screen and (max-width: 420px) {
+    .content {
+        .content-wrapper {
+            width: 100%;
+            .products-list {
+                li {
+                    width: 355px;
+                }
+            }
+        }
+    }
+}
